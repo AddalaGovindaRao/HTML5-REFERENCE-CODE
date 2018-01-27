@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table,th,td
+        {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        #Custom-table th
+        {
+            background-color: forestgreen;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Table Example -->
+    <table width="100%">
+        <thead>
+            <tr>
+                <th> S.no</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>raju</td>
+                <td>mumbai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>srinivas</td>
+                <td>tirupathi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sai</td>
+                <td>hyderabad</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table with Border all sides -->
+
+    <!-- Table with Border Collapse -->
+
+    <!-- Table With Padding -->
+
+
+    <!-- Table With Text Align -->
+
+    <!-- Table with Col Span -->
+    <h1>colspan</h1>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th> S.no</th>
+                <th colspan="2" style="background-color: green;">Name &  address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>raju</td>
+                <td>mumbai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>srinivas</td>
+                <td>tirupathi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sai</td>
+                <td>hyderabad</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table With Row Span -->
+    <h1>Row span</h1>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th> S.no</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="background-color: blue;">1</td>
+                <td>raju</td>
+                <td>mumbai</td>
+            </tr>
+            <tr>
+                
+                <td>srinivas</td>
+                <td>tirupathi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>sai</td>
+                <td>hyderabad</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <!-- Custom Table with CSS -->
+    <h1>Custom Table</h1>
+    <table width="100%" id="Custom-table">
+        <thead>
+            <tr>
+                <th> S.no</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>raju</td>
+                <td>mumbai</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>srinivas</td>
+                <td>tirupathi</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>sai</td>
+                <td>hyderabad</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+</html>
